@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mc-command-paster"
+version = "0.1.0"
+description = "Minecraft command batch sender for Windows"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+classifiers = [
+	"License :: Other/Proprietary License",
+]
+dependencies = []
+
+[project.scripts]
+mc-command-paster = "mc_command_paster.cli:run"
+
+[tool.setuptools]
+packages = ["mc_command_paster"]
+

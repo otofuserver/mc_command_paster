@@ -1,0 +1,19 @@
+build/
+.vs/
+.idea/
+.venv/
+*.iml
+__pycache__/
+.pytest_cache/
+*.pyc
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.log
+
+# 公開対象から外すドキュメント/設定
+.github/copilot-instructions.md
+.github/git-commit-instructions.md
+docs/development-plan.md
+

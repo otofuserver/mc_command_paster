@@ -1,0 +1,4 @@
+# smoke test commands
+say smoke test 1
+say smoke test 2
+say smoke test 3
